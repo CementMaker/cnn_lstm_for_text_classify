@@ -62,10 +62,10 @@ class Cnn(object):
             self.accuracy = tf.reduce_mean(tf.cast(correct_predictions, "float"), name="accuracy")
 
 
-cnn = Cnn(sequence_length=35,
-          vocab_size=1000,
-          embedding_size=50,
-          filter_sizes=[1, 2, 3, 4, 5],
-          num_filters=5,
-          num_classes=9)
-          # number_sample=200)
+# cnn = Cnn(sequence_length=35,
+#           vocab_size=1000,
+#           embedding_size=50,
+#           filter_sizes=[1, 2, 3, 4, 5],
+#           num_filters=5,
+#           num_classes=9)
+#           # number_sample=200)

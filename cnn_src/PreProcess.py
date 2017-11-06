@@ -18,39 +18,6 @@ from collections import Counter
 label_list = ['Military', 'Economy', 'Culture', 'Sports', 'Auto', 'Medicine']
 
 
-# stop words
-stopword = set()
-fd = open('../stopwords.txt', 'r', encoding='gbk')
-for line in fd:
-    stopword.add(line.strip())
-
-
-# 判断是否是汉子
-def is_chinese(uchar):
-    """判断一个unicode是否是汉字"""
-    if uchar >= u'/u4e00' and uchar <= u'/u9fa5':
-        return True
-    else:
-        return False
-
-
-# 判断词汇是不是只有中文
-def is_chinese_word(string):
-    for word in string:
-        if is_chinese(word) is False:
-            return False
-    return True
-
-
-# remove stop words
-def remove_stop_word(article):
-    new_article = []
-    for word in article:
-        if word not in stopword and is_chinese_word(word):
-            new_article.append(word)
-    return new_article
-
-
 # get label for softmax
 def soft_max_label(label):
     new_label = 6 * [0]
@@ -59,14 +26,16 @@ def soft_max_label(label):
     return new_label
 
 
-# encode every word
+# encode every word, every will encode with index
 def get_one_hot(path):
-    all_context, all_labels = zip(*loading_corpus())
+    all_context, all_labels = zip(*loading_corpus(path))
     vocab_processor = learn.preprocessing.VocabularyProcessor(1500, min_frequency=5)
     all_context = list(vocab_processor.fit_transform(all_context))
     print("number of words :", len(vocab_processor.vocabulary_))
-    return all_context, all_labels
-
+    
+    train_x, test_x, train_y, test_y = train_test_split(all_context, all_labels, test_size=0.01)
+    pickle.dump((test_x, test_y), open("corpus_test.pkl", "wb"))
+    pickle.dump((train_x, train_y), open("corpus_train.pkl", "wb"))
 
 # cut sentence and join
 def delete_and_split(all_context, all_labels):
@@ -75,33 +44,11 @@ def delete_and_split(all_context, all_labels):
     for context, label in data:
         article = ' '.join(list(jieba.cut(context)))
         new_data.append((article, soft_max_label(label)))
-    print(new_data[1:20])
-    return new_data
-            
-
-# load all document in 文档
-def loading_data_set(path):
-    all_context = []
-    all_labels = []
-    all_directory = os.listdir(path)
-    for directory in all_directory:
-        all_file = os.listdir(os.path.join(path, directory))
-        print("路径 = ", directory, "时间：", time.asctime((time.localtime(time.time()))))
-        for file in all_file:
-            with open(os.path.join(path, directory, file), 'r', encoding='gbk') as fd:
-                context = fd.read()
-            all_context.append(context)
-            all_labels.append(directory)
-
-    print("分词开始时间：", time.asctime((time.localtime(time.time()))))
-    new_data = delete_and_split(all_context, all_labels)
-    print("分词结束时间：", time.asctime((time.localtime(time.time()))))
-    pickle.dump(new_data, open("new_data.pkl", "wb"))
     return new_data
 
 
 # load all document in corpus
-def loading_corpus(path='../corpus'):
+def loading_corpus(path):
     allContext = []
     allLabel = []
     allFile = os.listdir(path=path)
@@ -117,16 +64,8 @@ def loading_corpus(path='../corpus'):
     return newData
 
 
-# get batch for DNN
+# get batch for CNN
 def get_batch(epoches, batch_size):
-    # all_context, all_labels = get_one_hot('../corpus')
-    # pickle.dump((all_context, all_labels), open("corpus.pkl", "wb"))
-    # all_context, all_labels = pickle.load(open("corpus.pkl", "rb"))
-    # train_x, test_x, train_y, test_y = train_test_split(all_context, all_labels, test_size=0.01)
-
-    # pickle.dump((test_x, test_y), open("corpus_test.pkl", "wb"))
-    # pickle.dump((train_x, train_y), open("corpus_train.pkl", "wb"))
-
     train_x, train_y = pickle.load(open("corpus_train.pkl", "rb"))
     data = list(zip(train_x, train_y))
     random.shuffle(data)
@@ -136,13 +75,5 @@ def get_batch(epoches, batch_size):
                 yield data[batch: (batch + batch_size)]
 
 
-number = 1
-for index in get_batch(3, 300):
-    print(number)
-    number += 1
-
-
-
-# if __name__ == "__main__":
-#     get_one_hot("../corpus")
-#     print("hello world")
+if __name__ == "__main__":
+    get_one_hot("../corpus")
