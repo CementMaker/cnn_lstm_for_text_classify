@@ -14,18 +14,17 @@ class Model(object):
         self.labels = tf.placeholder(tf.int64, [None, label_size])
         self.dropout_keep_prob = tf.placeholder(tf.float32, )
 
-        cell_fn = rnn.BasicLSTMCell
-        cell = cell_fn(rnn_size)
+        cell = rnn.BasicLSTMCell(rnn_size)
         # 使用 MultiRNNCell 类实现深层循环网络中每一个时刻的前向传播过程，num_layers 表示有多少层
         self.cell = rnn.MultiRNNCell([cell] * num_layers)
         self.l2_loss = tf.constant(0.0)
-        with tf.name_scope('embeddingLayer'), tf.device('/cpu:0'):
+
+        with tf.name_scope('embeddingLayer'):
             # W : 词表（embedding 向量），后面用来训练.
             W = tf.get_variable('W', [vocab_size, embedding_size])
             embedded = tf.nn.embedding_lookup(W, self.input_data)
 
-            # shape: (batch_size, seq_length, cell.input_size)
-            #     => (seq_length, batch_size, cell.input_size)
+            # shape: (batch_size, seq_length, cell.input_size) => seq_length * (batch_size, cell.input_size)
             inputs = tf.split(embedded, seq_length, 1)
 
             # 根据第二维展开,维度从0开始
@@ -37,15 +36,31 @@ class Model(object):
         with tf.name_scope('lstm_layer'):
             self.outputs, self.final_state = rnn.static_rnn(self.cell, inputs, dtype=tf.float32)
 
-        with tf.name_scope("dropout"):
-            self.h_drop = tf.nn.dropout(self.outputs[-1], self.dropout_keep_prob)
+        with tf.name_scope("pooling"):
+            for index in range(len(self.outputs)):
+                self.outputs[index] = tf.expand_dims(self.outputs[index], -1)
+                self.outputs[index] = tf.expand_dims(self.outputs[index], -1)
+            print(self.outputs[1])
+
+
+        with tf.name_scope("pooling"):
+            for index in range(len(self.outputs)):
+                self.outputs[index] = tf.nn.max_pool(
+                    self.outputs[index],
+                    ksize=[1, rnn_size, 1, 1],
+                    strides=[1, 1, 1, 1],
+                    padding='VALID',
+                    name="pool")
+            self.all_feature = tf.squeeze(tf.concat(self.outputs, 1), [2, 3])
+            print(self.all_feature)
+
+        # with tf.name_scope("dropout"):
+        #     self.h_drop = tf.nn.dropout(self.outputs[-1], self.dropout_keep_prob)
 
         with tf.name_scope('softmaxLayer'):
-            W = tf.get_variable('w', [rnn_size, label_size])
+            W = tf.get_variable('w', [seq_length, label_size])
             b = tf.get_variable('b', [label_size])
-            self.l2_loss += tf.nn.l2_loss(W)
-            self.l2_loss += tf.nn.l2_loss(b)
-            logits = tf.nn.xw_plus_b(self.h_drop, W, b)
+            logits = tf.nn.xw_plus_b(self.all_feature, W, b)
             self.probs = tf.nn.softmax(logits, dim=1)
 
         # 损失函数，采用softmax交叉熵函数
@@ -74,3 +89,11 @@ class Model(object):
         probs, state = sess.run([self.probs, self.final_state], feed_dict=feed)
         results = np.argmax(probs, 1)
         return results
+
+
+# lstm = Model(num_layers=1,
+#              seq_length=500,
+#              embedding_size=150,
+#              vocab_size=74680,
+#              rnn_size=150,
+#              label_size=6)

@@ -7,8 +7,6 @@ from lstm import *
 from PreProcess import *
 
 import matplotlib.pyplot as plt
-from tensorflow.contrib import learn
-
 
 global_loss = []
 global_accuracy = []
@@ -23,18 +21,18 @@ with tf.Graph().as_default():
     with sess.as_default():
         lstm = Model(num_layers=1,
                      seq_length=1500,
-                     embedding_size=128,
+                     embedding_size=100,
                      vocab_size=74680,
-                     rnn_size=150,
+                     rnn_size=128,
                      label_size=6)
         global_step = tf.Variable(0, name="global_step", trainable=False)
-        optimizer = tf.train.AdamOptimizer(0.001).minimize(lstm.cost, global_step=global_step)
+        optimizer = tf.train.AdamOptimizer(0.0005).minimize(lstm.cost, global_step=global_step)
         sess.run(tf.global_variables_initializer())
 
         def train_step(batch, label):
             feed_dict = {
                 lstm.input_data: batch,
-                lstm.targets: label,
+                lstm.labels: label,
                 lstm.dropout_keep_prob: 0.5
             }
             _, step, loss, accuracy = sess.run(
@@ -49,7 +47,7 @@ with tf.Graph().as_default():
         def dev_step(batch, label):
             feed_dict = {
                 lstm.input_data: batch,
-                lstm.targets: label,
+                lstm.labels: label,
                 lstm.dropout_keep_prob: 0.5
             }
             step, loss, accuracy = sess.run([global_step, lstm.cost, lstm.accuracy], feed_dict=feed_dict)
