@@ -3,7 +3,7 @@ import datetime
 import pickle
 import numpy as np
 
-from lstm import *
+from blstm import *
 from PreProcess import *
 
 import matplotlib.pyplot as plt
@@ -19,25 +19,29 @@ with tf.Graph().as_default():
     )
     sess = tf.Session(config=session_conf)
     with sess.as_default():
-        lstm = Model(num_layers=1,
+        # blstm = Model(num_layers=1,
+        #               seq_length=500,
+        #               embedding_size=100,
+        #               vocab_size=74680,
+        #               rnn_size=128,
+        #               label_size=6)
+        blstm = Model(num_layers=1,
                      seq_length=1500,
                      embedding_size=100,
                      vocab_size=74680,
                      rnn_size=128,
                      label_size=6)
         global_step = tf.Variable(0, name="global_step", trainable=False)
-        optimizer = tf.train.AdamOptimizer(0.0005).minimize(lstm.cost, global_step=global_step)
+        optimizer = tf.train.AdamOptimizer(0.005).minimize(blstm.loss, global_step=global_step)
         sess.run(tf.global_variables_initializer())
 
         def train_step(batch, label):
             feed_dict = {
-                lstm.input_data: batch,
-                lstm.labels: label,
-                lstm.dropout_keep_prob: 0.5
+                blstm.input_x: batch,
+                blstm.input_y: label,
+                blstm.dropout_keep_prob: 0.5
             }
-            _, step, loss, accuracy = sess.run(
-                [optimizer, global_step, lstm.cost, lstm.accuracy],
-                feed_dict=feed_dict)
+            _, step, loss, accuracy = sess.run([optimizer, global_step, blstm.loss, blstm.accuracy],feed_dict=feed_dict)
 
             time_str = datetime.datetime.now().isoformat()
             print("{}: step {}, loss {}, accuracy {}".format(time_str, step, loss, accuracy))
@@ -46,11 +50,11 @@ with tf.Graph().as_default():
 
         def dev_step(batch, label):
             feed_dict = {
-                lstm.input_data: batch,
-                lstm.labels: label,
-                lstm.dropout_keep_prob: 0.5
+                blstm.input_x: batch,
+                blstm.input_y: label,
+                blstm.dropout_keep_prob: 0.5
             }
-            step, loss, accuracy = sess.run([global_step, lstm.cost, lstm.accuracy], feed_dict=feed_dict)
+            step, loss, accuracy = sess.run([global_step, blstm.loss, blstm.accuracy], feed_dict=feed_dict)
             time_str = datetime.datetime.now().isoformat()
             print("{}: step {}, loss {:g}, accuracy {}".format(time_str, step, loss, accuracy))
 
