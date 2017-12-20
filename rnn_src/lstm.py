@@ -35,27 +35,6 @@ class Model(object):
             self.cell = rnn.MultiRNNCell([cell] * num_layers)
             self.outputs, self.final_state = rnn.static_rnn(self.cell, inputs, dtype=tf.float32)
 
-        # with tf.name_scope("pooling"):
-        #     for index in range(len(self.outputs)):
-        #         self.outputs[index] = tf.expand_dims(self.outputs[index], -1)
-        #         self.outputs[index] = tf.expand_dims(self.outputs[index], -1)
-        #     print(self.outputs[1])
-        #
-        #
-        # with tf.name_scope("pooling"):
-        #     for index in range(len(self.outputs)):
-        #         self.outputs[index] = tf.nn.max_pool(
-        #             self.outputs[index],
-        #             ksize=[1, rnn_size, 1, 1],
-        #             strides=[1, 1, 1, 1],
-        #             padding='VALID',
-        #             name="pool")
-        #     self.all_feature = tf.squeeze(tf.concat(self.outputs, 1), [2, 3])
-        #     print(self.all_feature)
-
-        # with tf.name_scope("dropout"):
-        #     self.h_drop = tf.nn.dropout(self.outputs[-1], self.dropout_keep_prob)
-
         with tf.name_scope('softmaxLayer'):
             W = tf.get_variable('w', [rnn_size, label_size])
             b = tf.get_variable('b', [label_size])

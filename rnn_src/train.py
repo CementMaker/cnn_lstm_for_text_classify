@@ -19,18 +19,12 @@ with tf.Graph().as_default():
     )
     sess = tf.Session(config=session_conf)
     with sess.as_default():
-        # blstm = Model(num_layers=1,
-        #               seq_length=500,
-        #               embedding_size=100,
-        #               vocab_size=74680,
-        #               rnn_size=128,
-        #               label_size=6)
         blstm = Model(num_layers=1,
-                     seq_length=1500,
-                     embedding_size=100,
-                     vocab_size=74680,
-                     rnn_size=128,
-                     label_size=6)
+                      seq_length=500,
+                      embedding_size=100,
+                      vocab_size=51461,
+                      rnn_size=128,
+                      label_size=6)
         global_step = tf.Variable(0, name="global_step", trainable=False)
         optimizer = tf.train.AdamOptimizer(0.005).minimize(blstm.loss, global_step=global_step)
         sess.run(tf.global_variables_initializer())
@@ -62,7 +56,7 @@ with tf.Graph().as_default():
         # x_train, y_train, x_dev, y_dev = split_data()
         # batches = batch_iter(list(zip(x_train, y_train)), batch_size=200, num_epochs=50)
 
-        batches = get_batch(3, 300)
+        batches = get_batch(30, 300)
         x_dev, y_dev = pickle.load(open("./pkl/test.pkl", "rb"))
         for data in batches:
             x_train, y_train = zip(*data)

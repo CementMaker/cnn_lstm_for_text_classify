@@ -35,7 +35,7 @@ def soft_max_label(label):
 
 def get_one_hot():
     all_context, all_labels = zip(*loading_corpus())
-    vocab_processor = learn.preprocessing.VocabularyProcessor(500, min_frequency=5)
+    vocab_processor = learn.preprocessing.VocabularyProcessor(500, min_frequency=10)
     all_context = vocab_processor.fit_transform(all_context)
     print("number of words :", len(vocab_processor.vocabulary_))
     train_x, test_x, train_y, test_y = train_test_split(list(all_context), all_labels, test_size=0.01)
