@@ -3,7 +3,7 @@ import datetime
 import pickle
 import numpy as np
 
-from blstm import *
+from lstm import *
 from PreProcess import *
 
 import matplotlib.pyplot as plt
@@ -19,14 +19,14 @@ with tf.Graph().as_default():
     )
     sess = tf.Session(config=session_conf)
     with sess.as_default():
-        blstm = Model(num_layers=1,
-                      seq_length=500,
-                      embedding_size=100,
-                      vocab_size=51461,
-                      rnn_size=128,
-                      label_size=6)
+        blstm = dynamic_rnn(num_layers=1,
+                            seq_length=500,
+                            embedding_size=100,
+                            vocab_size=51461,
+                            rnn_size=128,
+                            label_size=6)
         global_step = tf.Variable(0, name="global_step", trainable=False)
-        optimizer = tf.train.AdamOptimizer(0.005).minimize(blstm.loss, global_step=global_step)
+        optimizer = tf.train.AdamOptimizer(0.001).minimize(blstm.loss, global_step=global_step)
         sess.run(tf.global_variables_initializer())
 
         def train_step(batch, label):
@@ -39,8 +39,6 @@ with tf.Graph().as_default():
 
             time_str = datetime.datetime.now().isoformat()
             print("{}: step {}, loss {}, accuracy {}".format(time_str, step, loss, accuracy))
-            global_loss.append(loss)
-            global_accuracy.append(accuracy)
 
         def dev_step(batch, label):
             feed_dict = {
@@ -51,12 +49,14 @@ with tf.Graph().as_default():
             step, loss, accuracy = sess.run([global_step, blstm.loss, blstm.accuracy], feed_dict=feed_dict)
             time_str = datetime.datetime.now().isoformat()
             print("{}: step {}, loss {:g}, accuracy {}".format(time_str, step, loss, accuracy))
+            global_loss.append(loss)
+            global_accuracy.append(accuracy)
 
 
         # x_train, y_train, x_dev, y_dev = split_data()
         # batches = batch_iter(list(zip(x_train, y_train)), batch_size=200, num_epochs=50)
 
-        batches = get_batch(30, 300)
+        batches = get_batch(20, 300)
         x_dev, y_dev = pickle.load(open("./pkl/test.pkl", "rb"))
         for data in batches:
             x_train, y_train = zip(*data)
@@ -71,12 +71,12 @@ with tf.Graph().as_default():
         plt.plot(x, global_loss, 'r', label="loss")
         plt.xlabel("batches")
         plt.ylabel("loss")
-        plt.savefig("loss_modify.png")
+        plt.savefig("./png/loss_modify.png")
         plt.close()
 
         plt.plot(x, global_accuracy, 'b', label="accuracy")
         plt.xlabel("batches")
         plt.ylabel("accuracy")
-        plt.savefig("accuracy.png")
+        plt.savefig("./png/accuracy.png")
         plt.close()
 

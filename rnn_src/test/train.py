@@ -53,7 +53,7 @@ with tf.Graph().as_default():
             print("{}: step {}, loss {:g}, accuracy {}".format(time_str, step, loss, accuracy))
 
 
-        batches = get_batch(30, 300)
+        batches = get_batch(12, 300)
         x_dev, y_dev = pickle.load(open("../pkl/test.pkl", "rb"))
         for data in batches:
             x_train, y_train = zip(*data)

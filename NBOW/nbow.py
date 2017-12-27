@@ -33,7 +33,7 @@ class nbow(object):
             self.accuracy = tf.reduce_mean(self.equal)
 
 
-# Nbow = nbow(sentence_len=1000,
-#             vocab_size=20000,
-#             embedding_size=128,
-#             num_label=6)
+Nbow = nbow(sentence_len=1000,
+            vocab_size=20000,
+            embedding_size=128,
+            num_label=6)
