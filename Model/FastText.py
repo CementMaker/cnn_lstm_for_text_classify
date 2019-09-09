@@ -11,8 +11,8 @@ def print_results(N, p, r):
 
 
 if __name__ == "__main__":
-    train_data = '../../data/trainFastText.txt'
-    valid_data = '../../data/validFastText.txt'
+    train_data = '../data/fastTextData/train_data.txt'
+    valid_data = '../data/fastTextData/valid_data.txt'
 
     test_data = [line.strip().split('\t')[1] for line in open(valid_data, "r")]
     test_label = [line.strip().split('\t')[0] for line in open(valid_data, "r")]

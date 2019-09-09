@@ -1,6 +1,6 @@
-# cnn_lstm_for_text_classify
+ # <center>DNN for text classify</center>
 
-CNN，LSTM中文文本分类
+## <center> 中文文本分类 <\center>
 
 1. 文本采用压缩包里面的文档，运行代码之前需要解压文件夹
    解压之后的文件夹名称:corpus

@@ -10,6 +10,7 @@ from Model import *
 from preprocess import *
 from sklearn.metrics import classification_report
 
+
 def get_batch(epoches, batch_size):
     train_x, train_y = pickle.load(open("./data/train.pkl", "rb"))
     data = list(zip(train_x, train_y))
