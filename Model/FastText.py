@@ -1,7 +1,15 @@
 import numpy as np
 
+from tqdm import tqdm
 from fastText import train_supervised
 from sklearn.metrics import classification_report
+
+
+'''
+参考链接
+    https://github.com/facebookresearch/fastText
+    https://github.com/facebookresearch/fastText/blob/master/python/doc/examples/train_supervised.py
+'''
 
 
 def print_results(N, p, r):
@@ -11,8 +19,8 @@ def print_results(N, p, r):
 
 
 if __name__ == "__main__":
-    train_data = '../data/fastTextData/train_data.txt'
-    valid_data = '../data/fastTextData/valid_data.txt'
+    train_data = '../data/fastTextData/train_data'
+    valid_data = '../data/fastTextData/valid_data'
 
     test_data = [line.strip().split('\t')[1] for line in open(valid_data, "r")]
     test_label = [line.strip().split('\t')[0] for line in open(valid_data, "r")]
@@ -28,9 +36,10 @@ if __name__ == "__main__":
 
     print(np.array(test_data).shape)
     print(np.array(test_label).shape)
+    print(model.test("../data/fastTextData/valid_data"))
 
     predict_label = []
-    for line in test_data:
-        result = model.predict(line)
-        predict_label.append(result[0][0][-2])
+    for line in tqdm(test_data):
+        result, proba = model.predict(line)
+        predict_label.append(result[0])
     print(classification_report(y_pred=predict_label, y_true=test_label))

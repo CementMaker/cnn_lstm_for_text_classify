@@ -70,18 +70,19 @@ class NNfeature(object):
 class fastTextfeature(object):
     def __init__(self, data_path='./data/context'):
         logger.info('fastTextfeature loading corpus ...')
+        self.label_list = ['Military', 'Economy', 'Culture', 'Sports', 'Auto', 'Medicine']
 
         # 枚举所有的文件
-        jieba.enable_parallel(4)
+        jieba.enable_parallel(8)
         self.context, self.label = [], []
         for file in tqdm(os.listdir(path=data_path)):
             try:
                 label = file.split('_')[0]
                 filePath = os.path.join(data_path, file)
                 with open(filePath, 'r', encoding='utf-8') as fd:
-                    context = fd.read()
+                    context = fd.read().replace('\n', ' ').replace('\r', ' ').replace('\t', ' ')
                 self.context.append(context)
-                self.label.append('__' + label + '__')
+                self.label.append(self.label_list.index(label))
             except:
                 logger.warning('file %s have some problem ...' % file)
         self.context = [' '.join(list(jieba.cut(context))) for context in tqdm(self.context)]
@@ -90,12 +91,12 @@ class fastTextfeature(object):
 
         train_data_fd = open('./data/fastTextData/train_data', 'w+')
         for label, context in zip(self.train_label, self.train_context):
-            train_data_fd.write(label + '\t' + context)
+            train_data_fd.write("__label__" + str(label) + '\t' + context + '\n')
         train_data_fd.close()
 
         valid_data_fd = open('./data/fastTextData/valid_data', 'w+')
         for label, context in zip(self.test_label, self.test_context):
-            valid_data_fd.write(label + '\t' + context)
+            valid_data_fd.write("__label__" + str(label) + '\t' + context + '\n')
         valid_data_fd.close()
 
         logger.debug('self.train_context shape: %d' % len(self.train_context))
@@ -105,6 +106,6 @@ class fastTextfeature(object):
 
 
 if __name__ == '__main__':
-    f = NNfeature()
-    # f = fastTextfeature()
+    # f = NNfeature()
+    f = fastTextfeature()
 
