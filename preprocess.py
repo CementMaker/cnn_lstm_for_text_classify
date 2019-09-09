@@ -63,8 +63,8 @@ class NNfeature(object):
         logger.debug('self.train_y shape: (%d, %d)' % (self.train_y.shape))
         logger.debug('self.test_y shape: (%d, %d)' % (self.test_y.shape))
 
-        pickle.dump((self.test_x, self.test_y), open("./data/test.pkl", "wb"))
-        pickle.dump((self.train_x, self.train_y), open("./data/train.pkl", "wb"))
+        pickle.dump((self.test_x, self.test_y), open("./data/pkl/test.pkl", "wb"))
+        pickle.dump((self.train_x, self.train_y), open("./data/pkl/train.pkl", "wb"))
 
 
 class fastTextfeature(object):
@@ -105,5 +105,6 @@ class fastTextfeature(object):
 
 
 if __name__ == '__main__':
-    f = fastTextfeature()
+    f = NNfeature()
+    # f = fastTextfeature()
 

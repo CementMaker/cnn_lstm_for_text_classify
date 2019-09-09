@@ -39,11 +39,5 @@ class lstm(object):
         with tf.name_scope('predict'):
             self.correct_pred = tf.equal(tf.argmax(self.logits, 1), tf.argmax(self.label, 1))
             self.accuracy = tf.reduce_mean(tf.cast(self.correct_pred, tf.float32))
+            self.predict = tf.argmax(self.logits, axis=1)
 
-
-# model = lstm(num_layers=1,
-#              sequence_length=60,
-#              embedding_size=50,
-#              vocab_size=120000,
-#              rnn_size=50,
-#              num_classes=2)
