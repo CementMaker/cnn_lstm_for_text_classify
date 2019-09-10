@@ -20,7 +20,10 @@ class lstm(object):
             # 使用 MultiRNNCell 类实现深层循环网络中每一个时刻的前向传播过程，num_layers 表示有多少层
             # cell = rnn.BasicLSTMCell(rnn_size)
             self.cell = rnn.MultiRNNCell([cell] * num_layers)
-            self.outputs, _ = rnn.static_rnn(self.cell, inputs, dtype=tf.float32)
+            self.outputs, self.aaa = rnn.static_rnn(self.cell, inputs, dtype=tf.float32)
+            print(len(self.outputs), self.outputs[0])
+            print('aaaaaaaaaaaaaaa')
+            print(len(self.aaa), len(self.aaa[0]), self.aaa[0][0])
             self.feature = tf.concat(self.outputs, axis=1)
 
         with tf.name_scope("dropout"):
@@ -41,3 +44,10 @@ class lstm(object):
             self.accuracy = tf.reduce_mean(tf.cast(self.correct_pred, tf.float32))
             self.predict = tf.argmax(self.logits, axis=1)
 
+
+model = lstm(num_layers=1,
+             sequence_length=50,
+             embedding_size=100,
+             vocab_size=20005,
+             rnn_size=100,
+             num_classes=6)

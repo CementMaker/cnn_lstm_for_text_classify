@@ -1,1 +1,1 @@
-__all__ = ["NeuralBOW", "textCnn", "textLstm"]
+__all__ = ["NeuralBOW", "textCnn", "textLstm", "TextDynamicRNN"]
