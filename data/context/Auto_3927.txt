@@ -1,0 +1,94 @@
+兰博基尼Gallardo LP 550-2 登陆中国市场
+北京商报6月1日报道
+日前，兰博基尼汽车公司向中国超级跑车市场推出了其最新车型：时尚且强悍的兰博基尼Gallardo LP 550-2。这一引人注目的新产品的上市，印证了这家位于圣亚加塔·波隆尼的超级跑车制造商对中国豪华跑车市场的承诺。
+
+
+try{
+var TurnAD189=new Cookie(document,"TurnAD189",24);
+TurnAD189.load();
+TurnAD189.visit=(TurnAD189.visit==null)?parseInt(Math.random()*2+1):TurnAD189.visit;
+if(TurnAD189.visit!=0)var intTurnAD189=TurnAD189.visit;
+TurnAD189.visit++;
+TurnAD189.visit=(TurnAD189.visit>2)?1:TurnAD189.visit;
+TurnAD189.store();
+function showTurnAD189(basenum){
+if (basenum==1){
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2501';
+
+sogou_is_one["div_id1"] = 'TurnAD189';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);}
+else{
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2501';
+
+sogou_is_one["div_id1"] = 'TurnAD189';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+}
+}
+showTurnAD189(intTurnAD189);
+}catch(e){}
+
+兰博基尼Gallardo LP 550-2的上市，预示着该品牌在中国市场的新时代拉开了序幕。
+兰博基尼汽车公司亚太区经理克里斯蒂安·马斯特洛说：“兰博基尼设计的Gallardo LP 550-2是一款极其少见的高性能后轮驱动超级跑车，能够充分满足中国客户需求，而且，它独特精密的设计、卓越的性能和绝不妥协的精神，都是兰博基尼致力于超级跑车文化在中国发展的绝佳证明。”
+

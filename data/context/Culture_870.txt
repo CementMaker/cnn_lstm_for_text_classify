@@ -1,0 +1,281 @@
+!DOCTYPEHTMLPUBLIC-//W3C//DTDHTML4.01Transitional//ENhttp://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd
+!--savedfromurl=(0040)http://env.people.com.cn--
+HTML
+xmlns=http://www.w3.org/1999/xhtmlHEAD
+STYLE#CopyRight2008{
+	CLEAR:both;FONT-SIZE:12px;BACKGROUND:white;MARGIN:0pxauto;COLOR:black
+}
+#CopyRight2008.en{
+	FONT-FAMILY:Arial
+}
+#CopyRight2008A{
+	COLOR:black;TEXT-DECORATION:none
+}
+#CopyRight2008A:hover{
+	COLOR:red;TEXT-DECORATION:underline
+}
+/STYLE
+basetarget=_blank
+TITLE周刊：14座古墓毁于推土机下你的孩子在慢性自杀吗？/TITLE
+METAhttp-equiv=Content-Typecontent=text/html;charset=gb2312LINK
+href=http://news.qq.com/2009/09lh/xb/qz/food.csstype=text/cssrel=stylesheet
+METAcontent=MSHTML6.00.2900.3492name=GENERATOR/HEAD
+BODY
+style=BACKGROUND:url(qz/b1_02.jpg)repeat-x50%top
+STYLEBODY{
+	PADDING-RIGHT:0px;PADDING-LEFT:0px;BACKGROUND:url(2009/tzh09/main_bg.jpg)repeat-x50%top;PADDING-BOTTOM:0px;MARGIN:0px;PADDING-TOP:0px
+}
+FORM{
+	PADDING-RIGHT:0px;PADDING-LEFT:0px;PADDING-BOTTOM:0px;MARGIN:0px;PADDING-TOP:0px
+}
+INPUT{
+	PADDING-RIGHT:0px;PADDING-LEFT:0px;PADDING-BOTTOM:0px;MARGIN:0px;PADDING-TOP:0px
+}
+SELECT{
+	PADDING-RIGHT:0px;PADDING-LEFT:0px;PADDING-BOTTOM:0px;MARGIN:0px;PADDING-TOP:0px
+}
+BODY{
+	FONT-SIZE:12px;COLOR:#383838;LINE-HEIGHT:20px
+}
+SELECT{
+	FONT-SIZE:12px;LINE-HEIGHT:1.4em
+}
+INPUT{
+	FONT-SIZE:12px;LINE-HEIGHT:1.4em
+}
+IMG{
+	BORDER-TOP-STYLE:none;BORDER-RIGHT-STYLE:none;BORDER-LEFT-STYLE:none;BORDER-BOTTOM-STYLE:none
+}
+A{
+	COLOR:#383838;TEXT-DECORATION:none
+}
+A:hover{
+	COLOR:#f00;TEXT-DECORATION:underline
+}
+.fl{
+	FLOAT:left
+}
+.fr{
+	FLOAT:right
+}
+.fontl16{
+	LINE-HEIGHT:16px
+}
+.fontl18{
+	LINE-HEIGHT:18px
+}
+.fontl21{
+	LINE-HEIGHT:21px
+}
+.fontl22{
+	LINE-HEIGHT:22px
+}
+.fontl24{
+	LINE-HEIGHT:24px
+}
+.fontl26{
+	LINE-HEIGHT:26px
+}
+.fontl28{
+	LINE-HEIGHT:28px
+}
+.fontl34{
+	LINE-HEIGHT:34px
+}
+.fontl40{
+	LINE-HEIGHT:40px
+}
+.font14px{
+	FONT-SIZE:14px
+}
+.fontbold{
+	FONT-WEIGHT:bold
+}
+.font2em{
+	TEXT-INDENT:2em
+}
+.fonttitle{
+	FONT-SIZE:18px;FONT-FAMILY:黑体
+}
+.bg1{
+	BACKGROUND-POSITION:lefttop;BACKGROUND-REPEAT:no-repeat
+}
+.bg2{
+	BACKGROUND-POSITION:righttop;BACKGROUND-REPEAT:no-repeat
+}
+.bg3{
+	BACKGROUND-POSITION:rightbottom;BACKGROUND-REPEAT:no-repeat
+}
+.bg4{
+	BACKGROUND-POSITION:leftbottom;BACKGROUND-REPEAT:no-repeat
+}
+.bg5{
+	BACKGROUND-POSITION:centerbottom;BACKGROUND-REPEAT:no-repeat
+}
+.bg6{
+	BACKGROUND-POSITION:centertop;BACKGROUND-REPEAT:no-repeat
+}
+.bx{
+	BACKGROUND-REPEAT:repeat-x
+}
+.by{
+	BACKGROUND-REPEAT:repeat-y
+}
+.bno{
+	BACKGROUND-IMAGE:none
+}
+.bn{
+	BACKGROUND-REPEAT:no-repeat
+}
+.bt{
+	BACKGROUND-POSITION:50%top
+}
+.bb{
+	BACKGROUND-POSITION:50%bottom
+}
+.br{
+	BACKGROUND-POSITION:right50%
+}
+.bl{
+	BACKGROUND-POSITION:left50%
+}
+.bc{
+	BACKGROUND-POSITION:center50%
+}
+.mar5{
+	MARGIN-RIGHT:5px
+}
+.mart10{
+	MARGIN-TOP:10px
+}
+.martb7_7{
+	MARGIN-TOP:7px;MARGIN-BOTTOM:7px
+}
+.martb13_13{
+	MARGIN-TOP:10px;MARGIN-BOTTOM:10px
+}
+.pdlr26_8{
+	PADDING-RIGHT:8px;PADDING-LEFT:26px
+}
+.pdlr01{
+	PADDING-RIGHT:15px;PADDING-LEFT:15px;PADDING-BOTTOM:5px;PADDING-TOP:8px
+}
+.pdlr02{
+	PADDING-RIGHT:13px;PADDING-LEFT:30px;PADDING-BOTTOM:10px;PADDING-TOP:0px
+}
+.pdl5{
+	PADDING-LEFT:5px
+}
+.pdt5{
+	PADDING-TOP:5px
+}
+.pdr15{
+	PADDING-RIGHT:15px
+}
+.font0000{
+	COLOR:#000
+}
+.font0000A{
+	COLOR:#000
+}
+.font0000A:hover{
+	COLOR:#c00
+}
+.fontffff{
+	COLOR:#fff
+}
+.fontffffA{
+	COLOR:#fff
+}
+.fontffffA:hover{
+	COLOR:#c00
+}
+.fontB809{
+	COLOR:#b80900
+}
+.fontB809A{
+	COLOR:#b80900
+}
+.fontB809A:hover{
+	COLOR:#c00
+}
+.font6F00{
+	COLOR:#6f0010
+}
+.font6F00A{
+	COLOR:#6f0010
+}
+.font6F00A:hover{
+	COLOR:#c00
+}
+.fontAB0E{
+	COLOR:#ab0e09
+}
+.fontAB0EA{
+	COLOR:#ab0e09
+}
+.fontAB0EA:hover{
+	COLOR:#c00
+}
+.fontE300{
+	COLOR:#e30025
+}
+.fontE300A{
+	COLOR:#e30025
+}
+.fontE300A:hover{
+	COLOR:#c00
+}
+.tzh{
+	BACKGROUND:url(2009/tzh09/tzh_bg.jpg)#ffe99crepeat-x50%top;PADDING-BOTTOM:30px;MARGIN:0pxauto;WIDTH:960px
+}
+.tzh2{
+	BACKGROUND:url(2009/tzh09/bg_11.jpg)no-repeatrighttop;MARGIN:0pxauto;WIDTH:960px
+}
+.part01{
+	BACKGROUND:url(2009/tzh09/bg_01.jpg)repeat-y;MARGIN:0pxauto;WIDTH:946px
+}
+.part02{
+	MARGIN:0pxauto;WIDTH:946px
+}
+.clear{
+	CLEAR:both;FONT-SIZE:0px
+}
+.col290{
+	WIDTH:290px
+}
+.col400{
+	BACKGROUND:url(2009/tzh09/bg_02.jpg)no-repeat50%top;WIDTH:400px
+}
+.col256{
+	WIDTH:256px
+}
+.col690{
+	WIDTH:694px
+}
+.col252{
+	WIDTH:252px
+}
+.bd1{
+	BORDER-RIGHT:#edd2b21pxsolid;PADDING-RIGHT:3px;BORDER-TOP:#edd2b21pxsolid;PADDING-LEFT:3px;BACKGROUND:#fff;PADDING-BOTTOM:3px;BORDER-LEFT:#edd2b21pxsolid;WIDTH:90px;PADDING-TOP:3px;BORDER-BOTTOM:#edd2b21pxsolid;HEIGHT:70px
+}
+.tab01TD{
+	PADDING-RIGHT:20px;PADDING-LEFT:20px
+}
+#lh_nav{
+	MARGIN:0pxauto;WIDTH:960px;COLOR:#fff
+}
+#lh_navA{
+	COLOR:#fff
+}
+#lh_navA:hover{
+	COLOR:#ff0
+}
+#lh_nav.f14TD{
+	FONT-SIZE:14px
+}
+#lh_nav.linksA{
+	MARGIN-RIGHT:5px
+}
+/STYLE
+							据国家发改委有关负责人介绍，今年是实现“十一五”节能减排约束性目标的关键一年，各部门在保增长扩内需的同时，将采取一系列措施坚持节能减排不动摇。同时，加快完善节能减排统计、监测及考核体系，开展2008年省级政府及重点企业节能减排目标责任现场评价考核，考核结果向社会公告，并落实奖惩措施。							为了推进产业结构优化升级，当前不仅要通过提高项目节能环保准入门槛

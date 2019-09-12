@@ -1,0 +1,16 @@
+张国宝：中国水电装机容量9.7亿千瓦 居世界第一
+张国宝，国家发改委副主任兼国家能源局局长
+人民网北京5月7日电 在今天召开的“绿色经济与应对气候变化国际合作会议”主题晚餐会上，国家发改委副主任兼国家能源局局长张国宝做了主题演讲。
+张国宝透露，2005年中国的水电装机容量达到了9.7亿千瓦，居世界第一位。减排二氧化碳4.9亿吨。以三峡水电为标志，中国的水电技术达到了世界的领先水平
+
+
+var url = document.location.href;
+String1 = url.substr(0,29);
+//if (String1=="http://finance.people.com.cn/") document.write("<iframe src="http://finance.people.com.cn/GB/153179/166690/index.html" width="100%" height="500" frameborder="0" scrolling="no"></iframe>");
+
+String2 = url.substr(0,29);
+if (String2=="http://fashion.people.com.cn/") document.write("<iframe src="http://fashion.people.com.cn/GB/166764/index.html" width="100%" height="560" frameborder="0" scrolling="no"></iframe>");
+
+
+ 
+

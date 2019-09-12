@@ -1,0 +1,156 @@
+路透社:中国自主车型设计仍难逃"山寨"
+版权声明：本文版权为网易汽车所有，转载请注明出处。
+网易汽车4月24日报道
+据路透社4月24日报道 近日有评论称中国汽车制造商可能拥有世界上最大的市场，但是如果想要在全球竞争中占据领导地位，仍面临包括原创车型短缺、行业拥挤和缺乏海外收购目标等诸多挑战。
+所有这些都不曾浇灭中国汽车行业企业家的雄心，然而比亚迪股份有限公司的总裁王传福，这个美国亿万富翁投资者沃伦-巴菲特在他的公司投资后成为中国首富的传奇人物，曾誓言到2025年要将比亚迪打造成世界上最大的汽车公司。 
+
+
+try{
+var TurnAD533=new Cookie(document,"TurnAD533",24);
+TurnAD533.load();
+TurnAD533.visit=(TurnAD533.visit==null)?parseInt(Math.random()*3+1):TurnAD533.visit;
+if(TurnAD533.visit!=0)var intTurnAD533=TurnAD533.visit;
+TurnAD533.visit++;
+TurnAD533.visit=(TurnAD533.visit>3)?1:TurnAD533.visit;
+TurnAD533.store();
+function showTurnAD533(basenum){
+if (basenum==1){
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2701';
+
+sogou_is_one["div_id1"] = 'TurnAD533';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+}
+else if(basenum==2){
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2701';
+
+sogou_is_one["div_id1"] = 'TurnAD533';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+}
+else{
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2701';
+
+sogou_is_one["div_id1"] = 'TurnAD533';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+
+}
+}
+showTurnAD533(intTurnAD533);
+}catch(e){}
+
+事实是，过去数年内中国汽车销量的迅速增长简直可以说是震撼人心的。仅仅去年，汽车销量就增长了近50%至1370万辆，在今年的第一季度，又出现了76%的持续增长。
+但是，将在本国的强劲增长转换到国际市场上，即便是中国顶级的汽车制造商要成为像丰田、通用和福特那样的汽车巨头，也可能要花上数十年的时间。
+“在中国市场上成为王者相对容易，但到2015年就想要在全球市场上称霸？我要说这不是一个容易企及的目标。” 行业分析师阿尼尔-夏尔马如是说。
+中国自主品牌出现领头羊
+任何一个汽车制造商，要想在全球市场中占据领导地位的先决条件必须是在国内市场拥有主导地位。
+“历史已经证明，所有在出口市场取得成功的汽车制造商，都先在国内市场占据了强势地位。” 法国索福瑞集团北亚汽车部门执行长官克劳斯-鲍尔表示。
+举个很直接的例子，当丰田超越通用，成为世界上销量最大的汽车公司之时，整个日本市场上几乎一半的销售都被它占据。
+相比之下，中国的工业现状仍表现得支离破碎。目前国内游70多个厂家，然而没有一家可以说居于绝对主导的地位。
+夏尔马认为，“在行业的顶端，制造商的布局显然并不那么拥挤，然而在相对底层，简直可以说竞争者云集。”他断言，只有当整个制造商失去了增长的动力之时，整合才会真正到来。
+当然，在中国也有不少本土品牌佼佼者者开始崭露头角，比如国有上海汽车、比亚迪以及最近从福特公司收购了沃尔沃高端品牌的吉利汽车，然而在可以预见的数年内，这些企业仍将并驾齐驱。
+另一个竞争者是长城汽车股份有限公司，中国最大的运动型多用途车制造商，目前它还没有任何外国合作伙伴。
+“我们相信吉利、比亚迪、长城和上汽集团是潜在的赢家。”某信息服务供给部门的约翰-邦内尔如是说。
+车型设计仍旧缺乏原创性
+想要在全球舞台上的竞争，中国汽车制造业还需要更多的改革。但迄今为止，中国的汽车制造商的成功很大部分来自于利用外国企业的技术和设计。
+鲍尔表示，“在过去，复制和模仿在中国汽车制造业内随处可见。”
+例如吉利CK，就与梅赛德斯奔驰C级轿车有着惊人的相似之处。而中国最畅销的车型，在高速公路上飞驰的比亚迪F3，则很容易被误认为是丰田花冠。
+“我认为要想成为世界市场的领导者，你必须把创新推向市场，在下一个发展阶段，你必须要成为新产品的领军者。”邦内尔如是说。
+中国汽车制造商展示在今年的北京车展上发布了一系列的的电动和混合动力汽车，这昭示着绿色汽车正在成为中国汽车行业的亮点之一。
+“由于在市场、政府支持和原材料供应上的种种优势，中国正在电动汽车和混合动力汽车细分市场占据主导地位，这是一个很好的超越其他竞争者的机会。”夏马尔表示。
+另一个典型在行业内占据主导的途径是产业兼并和收购。这也就是吉利收购沃尔沃的所秉持的战略。这项交易将使吉利成为公认的全球品牌，同时还将带给吉利很多在其他业务上可能会有帮助的技术和诀窍。
+然而，分析师们表示，现在的问题是市面上没有可供收购的好公司。
+“中国汽车制造商收购萨博和悍马的计划均中途夭折，沃尔沃已被吉利收购，我认为在可以预见的将来，中国汽车制造商并没有合适的收购目标。”鲍尔表示。但他同时希望，汽车制造商能够加强跨边界合作，达到中国和外国制造商双赢的效果。
+而比亚迪采取的更像是迂回战略，并不直接购买品牌或技术，而是于上月与戴姆勒签署了协议，共同为中国市场开发电动汽车。
+

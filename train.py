@@ -12,9 +12,10 @@ from sklearn.metrics import classification_report
 
 
 # mini batch每个batch迭代
-def get_batch(epoches, batch_size):
-    train_x, train_y = pickle.load(open("./data/pkl/train.pkl", "rb"))
-    data = list(zip(train_x, train_y))
+def get_batch(epoches, batch_size, train_x=None, train_y=None, seq_length=None):
+    if train_x is None:
+        train_x, train_y = pickle.load(open("./data/pkl/train.pkl", "rb"))
+    data = list(zip(train_x, train_y, seq_length))
 
     for epoch in range(epoches):
         random.shuffle(data)
@@ -130,31 +131,6 @@ class textRnnTrain(object):
         self.summary_writer_test = tf.summary.FileWriter("./summary/rnn_summary/test", graph=self.sess.graph)
 
 
-class textDynamicRnnTrain(object):
-    def __init__(self):
-        self.sess = tf.Session()
-        self.model = TextDynamicRNN.lstm(layer_sizes=[128, 256],
-                                         sequence_length=50,
-                                         embedding_size=100,
-                                         vocab_size=20005,
-                                         rnn_size=100,
-                                         num_classes=6)
-        self.global_step = tf.Variable(0, name="global_step", trainable=False)
-
-        # 定义optimizer
-        self.optimizer = tf.train.AdamOptimizer(0.005).minimize(self.model.loss, global_step=self.global_step)
-        self.sess.run(tf.global_variables_initializer())
-        self.batches = get_batch(1, 400)
-
-        # tensorBoard
-        tf.summary.scalar('loss', self.model.loss)
-        tf.summary.scalar('accuracy', self.model.accuracy)
-        self.merged_summary_train = tf.summary.merge_all()
-        self.merged_summary_test = tf.summary.merge_all()
-        self.summary_writer_train = tf.summary.FileWriter("./summary/dynamic_rnn_summary/train", graph=self.sess.graph)
-        self.summary_writer_test = tf.summary.FileWriter("./summary/dynamic_rnn_summary/test", graph=self.sess.graph)
-
-
 def main(model_train):
     test_x, test_y = pickle.load(open("./data/pkl/test.pkl", "rb"))
     for data in model_train.batches:
@@ -172,7 +148,7 @@ def main(model_train):
 if __name__ == "__main__":
     # Net = NeuralBowTrain()
     # Net = textCnnTrain()
-    # Net = textRnnTrain()
-    Net = textDynamicRnnTrain()
+
+    Net = textRnnTrain()
     main(Net)
 

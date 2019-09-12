@@ -1,15 +1,15 @@
 import tensorflow as tf
 
 from tensorflow.contrib import rnn
-# from tensorflow.contrib import rnn_cell
 
 
 class lstm(object):
-    def __init__(self, layer_sizes, sequence_length, embedding_size, vocab_size, rnn_size, num_classes):
+    def __init__(self, layer_sizes, embedding_size, vocab_size, rnn_size, num_classes, max_length):
         # 输入数据以及数据标签
         self.label = tf.placeholder(tf.int32, [None, num_classes], name="label")
-        self.sentence = tf.placeholder(tf.int32, [None, sequence_length], name="input_b")
+        self.sentence = tf.placeholder(tf.int32, [None, max_length], name="input_b")
         self.dropout_keep_prob = tf.placeholder(tf.float32, name="dropout_keep_prob")
+        self.sequence_length = tf.placeholder(tf.int32, [None,], name="sequence_length")
 
         with tf.name_scope('embeddingLayer'):
             W = tf.Variable(tf.truncated_normal(shape=[vocab_size, embedding_size]))
@@ -22,12 +22,10 @@ class lstm(object):
             self.outputs, self.rnn_state = tf.nn.dynamic_rnn(cell=self.multi_rnn_cell,
                                                              inputs=self.embedding,
                                                              time_major=False,
+                                                             sequence_length=self.sequence_length,
                                                              dtype=tf.float32)
             print(len(self.rnn_state), len(self.rnn_state[0]), self.rnn_state[0][0])
             self.feature = tf.unstack(self.outputs, axis=1)[-1]
-
-        # with tf.name_scope("dropout"):
-        #     self.feature = tf.nn.dropout(self.feature, self.dropout_keep_prob)
 
         with tf.name_scope('softmaxLayer'):
             # w = tf.Variable(tf.truncated_normal(shape=[rnn_size * sequence_length, num_classes]))

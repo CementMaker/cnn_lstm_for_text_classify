@@ -1,0 +1,111 @@
+中国的丰田RAV4车主有望获得"召回补偿"
+第一财经日报3月30日报道
+记者从浙江省工商局了解到，昨天下午，丰田汽车在杭州承诺，在4月底前完成对今年召回的RAV4汽车车主补偿经济损失，这在中国属于首次汽车召回补偿事件。
+此前，双方在“赔偿问题”上一度未能达成共识。丰田公司认为，他们的依据是国家质量监督检验检疫总局等部委制定的《缺陷汽车产品召回管理规定》，里面没有规定民事赔偿。 
+
+
+try{
+var TurnAD37=new Cookie(document,"TurnAD37",24);
+TurnAD37.load();
+TurnAD37.visit=(TurnAD37.visit==null)?parseInt(Math.random()*3+1):TurnAD37.visit;
+if(TurnAD37.visit!=0)var intTurnAD37=TurnAD37.visit;
+TurnAD37.visit++;
+TurnAD37.visit=(TurnAD37.visit>3)?1:TurnAD37.visit;
+TurnAD37.store();
+function showTurnAD37(basenum){
+if (basenum==1){
+if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();var _b=new Image();
+_a.src='http://alpha.brand.sogou.com/brand_pv?md5=9cff33ad693f251a5cef4e1df24cb20a';document.pv.push(_a);
+_b.src='http://imp.ad-plus.cn/201003/9cff33ad693f251a5cef4e1df24cb20a.php?99';document.pv.push(_b);
+var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2010/jiedong/dongfeng/3502500329.swf","_9cff33ad693f251a5cef4e1df24cb20a","350","250","7");
+sohuFlash2.addParam("quality", "high");
+sohuFlash2.addParam("wmode", "opaque");
+sohuFlash2.addVariable("clickthru",escape("http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=201003&TargetID=sohu&Values=9cff33ad,693f251a,5cef4e1d,f24cb20a&AdID=32377&ff="+document.location.href));
+sohuFlash2.write('TurnAD37');}
+else if(basenum==2){
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2701';
+
+sogou_is_one["div_id1"] = 'TurnAD37';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);}
+else{
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2701';
+
+sogou_is_one["div_id1"] = 'TurnAD37';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+
+}
+}
+showTurnAD37(intTurnAD37);
+}catch(e){}
+
+浙江省工商局表示，2000年出台的《浙江“三包”商品目录》明确规定，汽车属于实行包修、包换、包退的商品，其三包期限为“一年或1.5万公里”。根据《浙江省实施〈中华人民共和国消费者权益保护法〉办法》第三十六条规定，实行“三包”的大件商品，应当由经营者负责修理、更换、退货的，经营者应当上门服务或者负责运送；经营者要求消费者运送的，应当承担运输费、误工费、差旅费等合理费用。
+昨天，一汽丰田销售有限公司副总经理永江秀久率团赴杭。浙江省工商局表示，一汽丰田方面对其提出的制定时间表、上门召回、提供代步车、允许全额退还订金和补偿经济损失五项要求均表示接受。
+依据《浙江省实施〈中华人民共和国消费者权益保护法〉办法》有关规定，一汽丰田同意对RAV4消费者给予补偿，具体补偿方式由各地4S店与消费者协商处理；一汽丰田将自即日起3日之内通知4S店。
+不仅如此，一汽丰田要在4月底前完成浙江所有RAV4问题汽车的召回维修工作，并保证维修质量；对尚未召回的RAV4汽车，可根据消费者的需求提供上门召回服务；在召回维修阶段影响车主使用的，由经销店提供代步车供消费者使用；未交付的RAV4汽车，一汽丰田将充分尊重客户的选择，如果客户提出解约，公司将全额退还客户订金。
+据了解，浙江是汽车消费大省，去年消费总量达到100万辆，人均汽车拥有量全国最高。丰田汽车1月份宣布在中国召回75000多辆存在问题的RAV4汽车，其中浙江占了十分之一。
+目前，浙江省内一汽丰田的4S店有30多家，车主一般在30公里内便可到达4S店进行维修。丰田ＲＡＶ４汽车每公里的油耗基本在1元以内，那么30公里的来回仅需60元左右，再加上40元左右的务工费，每辆车赔付基本上100元左右。这样粗略计算的话，整个丰田在浙江的赔付不会超过100万元。
+截至发稿，《第一财经日报》记者未能打通一汽丰田相关人士的电话。丰田中国牛煜表示，截至昨天，双方还在协商当中，丰田中国直到现在还没有掌握更多的信息。
+（记者丁彬对此文亦有贡献）
+

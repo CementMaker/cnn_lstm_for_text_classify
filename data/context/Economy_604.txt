@@ -1,0 +1,31 @@
+万钢：中国在绿色技术研发费用达136亿元
+万钢 全国政协副主席，科技部部长
+人民网北京5月7日电 在今天召开的“绿色经济与应对气候变化国际合作会议”上，全国政协副主席、科技部部长万钢指出，中国高度重视应对气候变化工作，把技术进步和创新作为推进新兴产业的发展，推动循环经济，促进发展方式的转变和经济结构的调整，作为重要的战略问题，应该予以全力地推进，为全球应对气候变化、促进社会的可持续发展做出应有的贡献。
+万钢介绍说，国家科技部一直高度重视应对全球气候变化的科技工作和支撑绿色发展的技术创新，从研发、示范、应用、推广国际科技合作等方面，来推动应对气候变化和绿色发展。
+一是加大投入力度，推进技术研发。重点围绕节能和提高能效、可再生能源和新能源的开发利用，清洁能源汽车、清洁生产程序、资源利用、环境保护以及二氧化碳普及工程和驾驭方面组织了一批重大的产业，近四年来，国家在这方面投入的科技经费达到了136亿元。
+二是组织实施重大科技示范工程。
+三是组织实施应对气候变化的科技专项。我们重点围绕了全球气候变化的科学问题，加强技术研究，特别是人类适应气候变化的战略与意志等方面的研究，强化了科学支撑，为政府决策提供科学的依据。
+四是大力开展应对气候变化国际合作。气候变化与历史发展是全球共同面临的重大问题，需要世界各国的共同地努力。目前中国的科技部已与97个国家签署了103个国际合作的协议。我们将应对气候变化、完成保护等领域列入双边科技合作的优先领域，一切课题正在有效的实施之中。
+
+
+var url = document.location.href;
+String1 = url.substr(0,29);
+//if (String1=="http://finance.people.com.cn/") document.write("<iframe src="http://finance.people.com.cn/GB/153179/166690/index.html" width="100%" height="500" frameborder="0" scrolling="no"></iframe>");
+
+String2 = url.substr(0,29);
+if (String2=="http://fashion.people.com.cn/") document.write("<iframe src="http://fashion.people.com.cn/GB/166764/index.html" width="100%" height="560" frameborder="0" scrolling="no"></iframe>");
+
+
+
+
+
+var url = document.location.href;
+String1 = url.substr(0,29);
+//if (String1=="http://finance.people.com.cn/") document.write("<iframe src="http://finance.people.com.cn/GB/153179/166690/index.html" width="100%" height="500" frameborder="0" scrolling="no"></iframe>");
+
+String2 = url.substr(0,29);
+if (String2=="http://fashion.people.com.cn/") document.write("<iframe src="http://fashion.people.com.cn/GB/166764/index.html" width="100%" height="560" frameborder="0" scrolling="no"></iframe>");
+
+
+ 
+

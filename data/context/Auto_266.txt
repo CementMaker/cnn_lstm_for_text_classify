@@ -1,0 +1,99 @@
+受油价影响 车用燃气价再涨0.25元/立方米
+南方日报4月19日报道
+“汽油才涨了两天,天然气也就跟着涨了,这下成本又上去了。”近两日记者乘坐出租车时,很多司机抱怨天然气价格上涨太快,即便是实行了燃油附加税,但是负担依然非常重。而记者昨从佛山市物价局获悉,4月16日开始,佛山车用天然气销售价格从原来5.15元/立方米调整为5.40元/立方米,而上次调价是在去年11月。 
+
+
+try{
+var TurnAD189=new Cookie(document,"TurnAD189",24);
+TurnAD189.load();
+TurnAD189.visit=(TurnAD189.visit==null)?parseInt(Math.random()*2+1):TurnAD189.visit;
+if(TurnAD189.visit!=0)var intTurnAD189=TurnAD189.visit;
+TurnAD189.visit++;
+TurnAD189.visit=(TurnAD189.visit>2)?1:TurnAD189.visit;
+TurnAD189.store();
+function showTurnAD189(basenum){
+if (basenum==1){
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2501';
+
+sogou_is_one["div_id1"] = 'TurnAD189';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);}
+else{
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2501';
+
+sogou_is_one["div_id1"] = 'TurnAD189';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+}
+}
+showTurnAD189(intTurnAD189);
+}catch(e){}
+
+车用燃气价调整范围适当
+据了解,从本月14日开始,广东省成品油最高销售价格再次调整,93号汽油(国Ⅱ)为6.58元/升,93号汽油(国Ⅲ)甚至涨到了6.80元/升。
+“此次调整,我们是根据按照油、气价格联动规定,向市物价局提出调价申请,物价局也核准了我们的要求。”佛山燃气集团有关负责人指出,依照2006年底出台文件,天然气价格与93号油价格差必须控制在0.7元以上,现在93号(国Ⅲ)汽油价格是6.80元/立方米,气价就要控制在6.10元以下。
+而从当日(16日)起,佛山的南庄、魁奇西、同济东3个车用天然气加气站都已将天然气收费标准换成了由5.15元/立方米换成5.40元/立方米,而这也是5个月后佛山再次调涨车用天然气价格。“目前受国际原油价格的影响,佛山市燃气价格和全省一样,处在一个新的价格高位。据测算,出租汽车燃气价格按原来每立方米5.15元销售后,燃气企业的经营已经存在一定的经营困难。而以目前油价相比,出租汽车经营单位或经营者使用车用燃气比使用93号汽油每公里可以节省0.3元左右,平均节省幅度大概达到30%。”市物价局相关负责人指出,本着自愿选择的原则,出租汽车经营单位或经营者可自行选择使用成品油或天然气。
+“开双燃料车压力也非常大”
+“以前佛山的家用天然气达到3.85元/立方米,市民都觉得贵,现在广佛同城了,将实行同网同价,据说是要调低和广州同价。”的哥孙先生指出,自己在佛山开出租车已快5年,当时全市刚逐步推广使用车用天然气时,出租车公司、佛山燃气集团及有关专家动员他们,使用天然气更环保、成本更低,而且承诺与澳大利亚一家天然气公司签了30年的合同,20年内除了战争等不可抗力的特别因素外不会升价。“但我们的车子自油改气后不到半年,随着汽油涨价,天然气逐渐次价,从刚开始是3.66元/立方米,一直涨到现在5.40元/立方米。”
+“以我和几个朋友的士测算,去年底每辆的士24小时平均用4—5罐气,现在初步估计一天综合成本增加了29元左右,一个月下来就超过850元!”孙先生告诉记者,一辆的士燃气罐大概能装12立方米,现在每立方米加0.25元,一罐气升了3元,这样涨,即便是开双燃料车压力也非常大。
+

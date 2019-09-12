@@ -1,0 +1,93 @@
+售价88.8万 梅赛德斯-奔驰全新E级敞篷跑车上市
+北京商报6月1日报道
+近日，梅赛德斯-奔驰（中国）汽车销售有限公司宣布，旗下跑车家族撼世佳作——全新E350敞篷跑车从即日起正式登陆中国市场，其售价为人民币88.8万元。全新E级四座敞篷跑车完美诠释了“更舒适、更宁静、更安全”的造车理念，充分考虑前后排乘客的驾乘感受，将激情设计、舒适驾乘、强劲动力与至尊安全相融合，打造动静合一的儒雅之美，开启敞篷跑车“四季皆宜”的驾乘新境界，让驾乘者无论在全年任何季节都能畅享敞篷驾驶的愉悦。
+
+
+try{
+var TurnAD189=new Cookie(document,"TurnAD189",24);
+TurnAD189.load();
+TurnAD189.visit=(TurnAD189.visit==null)?parseInt(Math.random()*2+1):TurnAD189.visit;
+if(TurnAD189.visit!=0)var intTurnAD189=TurnAD189.visit;
+TurnAD189.visit++;
+TurnAD189.visit=(TurnAD189.visit>2)?1:TurnAD189.visit;
+TurnAD189.store();
+function showTurnAD189(basenum){
+if (basenum==1){
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2501';
+
+sogou_is_one["div_id1"] = 'TurnAD189';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);}
+else{
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2501';
+
+sogou_is_one["div_id1"] = 'TurnAD189';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+}
+}
+showTurnAD189(intTurnAD189);
+}catch(e){}
+
+自北京车展上亚洲首发并开始预售以来，全新E级敞篷跑车以其让人过目难忘的设计风格、诸多高科技所营造的舒适氛围以及浪漫惬意的敞篷驾驶感受迅速博得了众多跑车爱好者的热烈追捧，充分证明了这款激情座驾的魅力。梅赛德斯-奔驰此次在第一时间内将全新E级敞篷跑车引入中国市场，进一步开拓了这一细分市场，在丰富产品线的同时，使得消费者愈加个性化、多样化的需求得以满足。
+

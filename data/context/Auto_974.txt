@@ -1,0 +1,106 @@
+吉利路径初现 北京总部和投资公司紧急注册
+经济观察报1月4日报道 
+最近几天，在北京市工商局，两家与吉利有关的公司的工商注册都在紧张地走程序。
+两间公司的具体名称目前尚不能完全清晰，可以暂时称一家为中国沃尔沃轿车有限公司，另一家叫中国吉利国际投资有限公司，两家公司将与吉利收购沃尔沃项目紧密相关。
+
+
+try{
+var TurnAD37=new Cookie(document,"TurnAD37",24);
+TurnAD37.load();
+TurnAD37.visit=(TurnAD37.visit==null)?parseInt(Math.random()*3+1):TurnAD37.visit;
+if(TurnAD37.visit!=0)var intTurnAD37=TurnAD37.visit;
+TurnAD37.visit++;
+TurnAD37.visit=(TurnAD37.visit>3)?1:TurnAD37.visit;
+TurnAD37.store();
+function showTurnAD37(basenum){
+if (basenum==1){
+if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();var _b=new Image();
+_a.src='http://alpha.brand.sogou.com/brand_pv?md5=47047e92fff9a1630b019159a8899dda';document.pv.push(_a);
+_b.src='http://imp.ad-plus.cn/200912/47047e92fff9a1630b019159a8899dda.php?99';document.pv.push(_b);
+var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2010/shuowang/haima/3502500101.swf","_47047e92fff9a1630b019159a8899dda","350","250","7");
+sohuFlash2.addParam("quality", "high");
+sohuFlash2.addParam("wmode", "opaque");
+sohuFlash2.addVariable("clickthru",escape("http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=200912&TargetID=sohu&Values=47047e92,fff9a163,0b019159,a8899dda&AdID=58991&ff="+document.location.href));
+
+sohuFlash2.write("TurnAD37");}
+else if(basenum==2){
+if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();var _b=new Image();
+_a.src='http://alpha.brand.sogou.com/brand_pv?md5=73d0be337f6d73a28f460ca56408911f';document.pv.push(_a);
+_b.src='http://imp.ad-plus.cn/200912/73d0be337f6d73a28f460ca56408911f.php?99';document.pv.push(_b);
+var sohuFlash2 = new sohuFlash("http://images.sohu.com/bill/s2009/jiaren/audi/3502501116.swf","_73d0be337f6d73a28f460ca56408911f","350","250","7");
+sohuFlash2.addParam("quality", "high");
+sohuFlash2.addParam("wmode", "opaque");
+sohuFlash2.addVariable("clickthru",escape("http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=200912&TargetID=sohu&Values=73d0be33,7f6d73a2,8f460ca5,6408911f&AdID=16779&ff="+document.location.href));
+sohuFlash2.write("TurnAD37");}
+else{
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2701';
+
+sogou_is_one["div_id1"] = 'TurnAD37';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+
+}
+}
+showTurnAD37(intTurnAD37);
+}catch(e){}
+
+本报独家获悉，吉利收购沃尔沃项目正在紧张的谈判中，上述两个公司正是吉利收购谈判成功后马上就需要的“工具”。
+2009年12月23日，浙江吉利控股集团联合美国福特汽车公司发布声明，称就收购沃尔沃轿车公司的所有重要商业条款达成一致，有望于2010年第一季度签署正式收购协议，并在第二季度完成交割。
+在这期间，吉利有意在北京设立未来沃尔沃项目的中国总部，并在京成立投资公司，正在注册这两个公司，这背后也暗含着吉利收购沃尔沃的路径。
+在京设立总部和投资公司
+12月23日，继10月28日吉利和福特联合宣布吉利称为沃尔沃汽车首选竞购方后，吉利和福特双方再度联手公开披露谈判进展。吉利预计将于2010年第1季度与福特签署股权收购协议；在获得相关监管机构批准后，预计于第2季度完成交易。
+消息人士透露，吉利和福特前期已经进行了多次的磋商，成功的概率很高，为此吉利已经在做各项准备，在北京设立总部和国际投资公司是当前重点进行的两项工作之一。
+其中，吉利在北京设立的国际投资公司，将成为2010年收购沃尔沃时的重要“工具”。
+具体的内容是，在北京成立中国吉利国际投资有限公司 （猜测名），初期注册资本80亿-90亿人民币，吉利以大股东和控制人身份出现，其他股东是为吉利投资的相关企业，包括中方银行等。然后在2010年资本逐渐增加至20亿美金，达到收购沃尔沃的资金。
+同时，以该国际投资公司的名义在瑞典再注册投资公司，瑞典投资公司对沃尔沃进行100%股权收购，最终完成吉利收购沃尔沃轿车项目。
+据上述人士透露，在北京注册的国际投资公司目前已经在北京市工商局走相关注册手续，等待批复。
+与此同时，吉利收购沃尔沃后，该项目总部可能落户北京。
+但2009年10月28日，在福特宣布吉利成为沃尔沃首选竞购方式时，双方中层表示，吉利和福特前期已经进行了多次的磋商。沃尔沃目前的工厂、研发中心、工会协议和经销商网络将得以保留，未来的沃尔沃将由独立的管理团队领导，总部仍设立在瑞典哥德堡。
+再在北京设立总部是否与其谈判承诺不符？
+上述人士表示，“当时声明中已经很明确的写道，吉利收购沃尔沃后，很大的一个方面是‘要借此进一步增强沃尔沃品牌在中国这个重要市场上的销售网络和采购渠道’，因此，既然中方购得，且在中国有庞大发展计划，在中国设立总部是顺理成章的事情，况且，其瑞典总部也没说取消。”
+“选在北京也很好理解，北京是中国首都，政治、经济环境均佳，且目前沃尔沃轿车在中国设立的总部也是在北京，将来很可能二者会有机结合起来。”上述人士分析。
+据悉，该公司在北京的工商注册也已经在走审批的程序。
+记者就此致电吉利和沃尔沃，双方均拒绝对此评论。
+吉利、沃尔沃单独运营
+在12月23日发表声明后一天，李书福亲口证实，沃尔沃未来将有两个本土市场，中国和瑞典，该消息间接佐证了吉利在中国设立总部的说法。
+在中国设立总部不言自明。吉利总部在中国浙江，如果上述在北京设立总部的消息属实，吉利收购沃尔沃后，吉利、沃尔沃两个品牌单独运营也变得顺利成长。
+李书福曾透露，如果吉利真的收购成功，将不派员过去，沃尔沃仍将是原来的沃尔沃，只不过老板换成了李书福。
+就此，李书福的原话是：“这将是两个完全独立运作的品牌，正如目前双方谈判达成的最新共识：沃尔沃管理层依照其独立的商业计划开展运营，在新的所有权框架下，沃尔沃目前的生产和研发设施、工会协议和经销商网络将保留。从技术、品牌和企业文化层面讲，吉利将有意保持沃尔沃血统的一贯性，而不是像人们想象中那样‘毁’了沃尔沃这家百年老店。”
+李还反复强调，吉利将维护和加强沃尔沃的世界级品牌的传统地位，并继续发扬此顶级品牌在安全性和环境技术方面的全球声誉。
+不过，保持沃尔沃血统的正统并不意味不改变考核与奖惩办法。
+2008年早些时候，吉利收购澳大利亚汽车自动变速器公司DSI的交接仪式在墨尔本完成。据李书福身边人士透露，在收购DSI后，吉利并未派去更多管理人员，仍然保持着DSI管理团队和研发团队等，但在考核、奖惩办法等方面做了调整。
+未来，在李书福的设想中，吉利将凭借其对中国的深刻理解帮助沃尔沃降低制造成本和打开中国市场。
+事实上，目前中国汽车市场早已超过千万辆大关，众多豪华车企业在中国发展迅速，仅2009年，奥迪在中国的销量就将超过13万辆，宝马销量超过9万辆，并且于前不久与华晨签署了在中国扩产至30万辆的意向。而奔驰在中国连续以50%以上的速度增长，并于最近公布了2010年年销售10万辆的计划。
+如果能够帮助沃尔沃顺利打开中国市场，其盈利能力提升将加速。也因此，面对亏损的沃尔沃汽车，李书福日前在接受媒体采访时自信地表示，“收购沃尔沃后有望令其在一年内盈利。”
+但就吉利是否在北京设立沃尔沃国产工厂，以及沃尔沃与中国长安汽车的技术合作等协议如何执行等问题，上述消息人士并未透露。
+

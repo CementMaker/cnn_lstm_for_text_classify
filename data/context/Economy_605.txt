@@ -1,0 +1,17 @@
+张国宝：中国风力发电2009年达2550万千瓦
+张国宝，国家发改委副主任兼国家能源局局长
+人民网北京5月7日电 在今天召开的“绿色经济与应对气候变化国际合作会议”主题晚餐会上，国家发改委副主任兼国家能源局局长张国宝做了主题演讲。
+张国宝介绍说，我国风电发展开始进入了快车道。据统计，2009年达到了2550万千瓦，我们在1995年的时候，当年的风电非常小，大家从图表上可以看出来速度的增长，到了2005年达到了2528万千瓦，这个数据现在居世界第二位，第二位是德国，按照统计的数据，我们已经超过了德国。
+设备的水平也不断提高，制作研发了应用了三套风力发电机，这个图展示的是正在调动海上风电的情况，现在在海上已经建了海上风电机组。
+
+
+var url = document.location.href;
+String1 = url.substr(0,29);
+//if (String1=="http://finance.people.com.cn/") document.write("<iframe src="http://finance.people.com.cn/GB/153179/166690/index.html" width="100%" height="500" frameborder="0" scrolling="no"></iframe>");
+
+String2 = url.substr(0,29);
+if (String2=="http://fashion.people.com.cn/") document.write("<iframe src="http://fashion.people.com.cn/GB/166764/index.html" width="100%" height="560" frameborder="0" scrolling="no"></iframe>");
+
+
+ 
+

@@ -1,0 +1,138 @@
+V3菱悦CVT 7.79-8.59万 全系单月销量即将破万
+
+网易汽车4月23日北京车展报道 
+2010年4月，备受消费者关注与期待的东南汽车V3菱悦CVT车型正式上市，共推出3款车型，分别为豪华版CVT、旗舰版CVT和风采版CVT，最低售价7.79万元。凭借超值起步价、丰富的配备以及卓越的品质，V3菱悦不仅创造了8万元以下同级别车型搭配CVT无级变速器的性价比新高，三款CVT车型的上市，进一步完善了产品体系，也为追求舒适性与操控性兼备的消费者带来更全面的选择。 
+作为东南汽车高起点自主研发的车型，V3菱悦自2008年底上市以来，凭借卓越的品质与超高性价比受到了消费者的热捧，不仅赢得了良好的市场口碑和2009年的持续热销，在2010年年初更迎来了近万台的月销量成绩。积极进取的东南汽车并未满足现状，投入了大量的资金和人力用于新产品的开发，经过严苛的品质测试，搭载新一代带6速手自一体模式智能CVT无级变速器的V3菱悦终于载誉新生。
+随着城市化的高速发展、用车环境的日渐拥堵和高油价时代的来临，更具燃油经济性和操控便利性的CVT无级变速器正逐渐取代传统自动档，成为车坛新宠，并运用于诸多高端车型。而V3菱悦CVT车型所搭载的CVT无级变速器更是新一代的高科技含量产品，由全球3大变速箱集团之一——德国ZF旗下欧洲全资公司生产，带6速手自一体并兼备了雪地、运动等多种智能模式，能根据驾驶者的需求和不同路况，自动切换到最佳的传动比，创造极为顺畅、无顿挫的舒适旅程。在雪地、泥泞、湿滑路况下，只要按下雪地模式开关，系统即强制性减少进油量，降低发动机转速，使车辆减速，确保在恶劣路况下安全行车。而在D档模式向左切换到“S”运动模式时，仪表屏上“SPORT”指示灯立即亮起，三菱4A91发动机沉稳的爆发出更为强劲的动力输出，让人充分领略高速行驶的运动乐趣。
+值得一提的是，V3菱悦CVT三款车型均搭载三菱全新全铝4A91 1.5L发动机，采用MIVEC可变气门正时技术，最大功率88KW，最大扭矩达到了143Nm/4000rpm。该发动机是三菱目前在全球最先进的小排量发动机，实现了轻量化的效果，进一步提高了车辆运动散热能力、加速性能与燃油经济性。这样的领先动力匹配新一代CVT无级变速系统，两个不同领域最先进技术的同时运用，带来了相辅相成的加分效果，能实现极佳的燃油经济性和动力性。 
+
+
+try{
+var TurnAD533=new Cookie(document,"TurnAD533",24);
+TurnAD533.load();
+TurnAD533.visit=(TurnAD533.visit==null)?parseInt(Math.random()*3+1):TurnAD533.visit;
+if(TurnAD533.visit!=0)var intTurnAD533=TurnAD533.visit;
+TurnAD533.visit++;
+TurnAD533.visit=(TurnAD533.visit>3)?1:TurnAD533.visit;
+TurnAD533.store();
+function showTurnAD533(basenum){
+if (basenum==1){
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2701';
+
+sogou_is_one["div_id1"] = 'TurnAD533';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+}
+else if(basenum==2){
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2701';
+
+sogou_is_one["div_id1"] = 'TurnAD533';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+}
+else{
+var sogou_is_one = new Object();
+
+sogou_is_one["pid"]  = 'sohu__brand';
+
+sogou_is_one["charset"]   = 'gb2312';
+
+sogou_is_one["sohuurl"] = document.location.href;
+
+sogou_is_one["iw1"]   = '350';
+
+sogou_is_one["ih1"]   = '250';
+
+sogou_is_one["place1"] = '2701';
+
+sogou_is_one["div_id1"] = 'TurnAD533';
+
+function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}
+
+var sogou_is_one_url = "http://cpc.brand.sogou.com/brand_ad_new";
+
+var one_cnt = 0;
+
+for(var p in sogou_is_one)
+
+{
+
+              sogou_is_one_url += (one_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_one[p]);
+
+}
+
+var one_js = document.createElement('SCRIPT');
+
+one_js.src=sogou_is_one_url;
+
+document.getElementsByTagName('head')[0].appendChild(one_js);
+
+}
+}
+showTurnAD533(intTurnAD533);
+}catch(e){}
+
+数据显示，V3菱悦CVT车型油耗与V3菱悦MT车型相当，同级车中无出其右，这对于消费者而言无疑是节省钱包的最佳福音。 
+此外，V3菱悦CVT全系车型除了拥有超越同级车的无钥匙启动系统、遥控尾门开启、带MP3接口的高保真音响系统、四轮碟刹、五连杆独立后悬挂等丰富配备外，还换载了更具动感时尚气息的全新炮筒式仪表盘和高质感15寸动感7幅铝圈。旗舰版CVT和风采版CVT还升级加装了主要运用于中高级轿车的定速巡航系统，而V3菱悦CVT也成为同级别中唯一搭载该配备的车型，进一步提升了整车性价比，在同级车中的竞争力更胜一筹。另外，V3菱悦推出CVT车型的同时，MT产品也全面升级，5.98万元启航版配备15寸铝圈，实现全车系准配195R15铝圈；而V3菱悦旗舰版及风采版车型均可选装DVD+NAVI、倒车CCD影像监视系统，营造更为舒适的出行氛围。
+可以说，V3菱悦CVT车型的上市是东南汽车提升自主品牌影响力的重要举措，进一步实现产品多元化布局，为消费者带来更多的选择。随着CVT车型的上市，V3菱悦全系的单月销量也将向万辆俱乐部挺进。
+
