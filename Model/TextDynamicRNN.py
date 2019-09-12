@@ -24,13 +24,12 @@ class lstm(object):
                                                              time_major=False,
                                                              sequence_length=self.sequence_length,
                                                              dtype=tf.float32)
-            print(len(self.rnn_state), len(self.rnn_state[0]), self.rnn_state[0][0])
             self.feature = tf.unstack(self.outputs, axis=1)[-1]
 
         with tf.name_scope('softmaxLayer'):
             # w = tf.Variable(tf.truncated_normal(shape=[rnn_size * sequence_length, num_classes]))
             # b = tf.Variable(tf.truncated_normal(shape=[num_classes]))
-            w = tf.Variable(tf.truncated_normal(shape=[256, num_classes]))
+            w = tf.Variable(tf.truncated_normal(shape=[128, num_classes]))
             b = tf.Variable(tf.truncated_normal(shape=[num_classes]))
             self.logits = tf.nn.xw_plus_b(self.feature, w, b)
 

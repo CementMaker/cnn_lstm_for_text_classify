@@ -21,9 +21,6 @@ class lstm(object):
             # cell = rnn.BasicLSTMCell(rnn_size)
             self.cell = rnn.MultiRNNCell([cell] * num_layers)
             self.outputs, self.aaa = rnn.static_rnn(self.cell, inputs, dtype=tf.float32)
-            print(len(self.outputs), self.outputs[0])
-            print('aaaaaaaaaaaaaaa')
-            print(len(self.aaa), len(self.aaa[0]), self.aaa[0][0])
             self.feature = tf.concat(self.outputs, axis=1)
 
         with tf.name_scope("dropout"):
@@ -45,9 +42,9 @@ class lstm(object):
             self.predict = tf.argmax(self.logits, axis=1)
 
 
-model = lstm(num_layers=1,
-             sequence_length=50,
-             embedding_size=100,
-             vocab_size=20005,
-             rnn_size=100,
-             num_classes=6)
+# model = lstm(num_layers=1,
+#              sequence_length=50,
+#              embedding_size=100,
+#              vocab_size=20005,
+#              rnn_size=100,
+#              num_classes=6)

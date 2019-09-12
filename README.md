@@ -3,12 +3,13 @@
 ## <center> 中文文本分类 </center>
 
 <pre><code>
-├── Model                 模型文件夹
-│   ├── FastText.py       fastText算法，调用好接口
-│   ├── NeuralBOW.py      NBOW算法，可以作为base
-│   ├── __init__.py
-│   ├── textCnn.py        textCNN
-│   └── textLstm.py       textRnn，这里使用lstm
+├── Model                       模型文件夹
+│   ├── FastText.py             fastText算法，调用好接口
+│   ├── NeuralBOW.py            NBOW算法，可以作为base
+│   ├── __init__.py             __init__
+│   ├── textCnn.py              textCNN
+│   └── textLstm.py             textRnn，这里使用lstm
+│   └── textDynamicRNN.py       DynaicRnn，这里使用lstm
 ├── README.md
 ├── __init__.py
 ├── data
@@ -20,7 +21,16 @@
 │       └── train.pkl     DNN对应的训练集
 ├── data.tar              源数据
 ├── preprocess.py         预处理数据，将源文本数据处理成NN和fastText所需要的特征
+       NNfeature          NNfeature
+       fastTextfeature    fastText特征
+       DynamicRnnfeature  DynamicRnn特征
 └── train.py              训练模型，将每个NN模型对应训练测试过程封装成类
+       NeuralBowTrain     训练NeuralBow
+       textCnnTrain       训练textCnn
+       textRnnTrain       训练textRnn
+       train_step         函数化的train过程
+       dev_step           函数化的dev过程
+└── dynamicRnnTrain.py    训练DynamicRNN，将每个NN模型对应训练测试过程封装成类
 '''
 
 文本采用压缩包里面的文档，运行代码之前需要解压文件夹

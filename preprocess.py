@@ -145,7 +145,7 @@ class DynamicRnnfeature(object):
         self.tokenizer.fit_on_texts(self.context)
         self.context = np.array(self.tokenizer.texts_to_sequences(self.context))
         self.sequence_length = np.array([len(sequence) for sequence in self.context])
-        self.context = pad_sequences(self.context, padding='post')
+        self.context = pad_sequences(self.context, maxlen=50, padding='post')
         logger.debug('context idx shape: (%d, %d)' % self.context.shape)
 
         self.train_x, self.test_x, self.train_y, self.test_y, self.seq_len_train, self.seq_len_test = \
